@@ -1,0 +1,33 @@
+@import url(https://use.fontawesome.com/releases/v5.15.4/css/all.css);
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 3px;
+    font-size: 18px;   
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5.4px;
+    padding-top: 12.6px;
+    padding-bottom: 12.6px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+a:hover {
+    color: #eee;
+}
+
+i {
+    padding-right: 5.4px;
+}
+
+.click {
+    background-color: green;
+}
+
+.email {
+    background-color: orange;
+}
