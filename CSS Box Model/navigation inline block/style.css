@@ -1,0 +1,26 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 20px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+nav {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
