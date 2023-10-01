@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+}
+
+#two {
+    background: blue;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    /* This is method to center a div using position absolute and transform */
+}
