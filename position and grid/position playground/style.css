@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.viewport {
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(red, yellow);
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card img {
+    display: block;
+    width: 20em;
+    height: auto;
+}
+
+.card img:hover {
+    box-shadow: 0 0 1em 0.5em rgb(173, 216, 230);
+}
