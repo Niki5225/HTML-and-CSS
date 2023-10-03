@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+aside {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+
+aside h3, nav {
+    padding-bottom: 1em;
+}
+
+a {
+    font-size: 1.15em;
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkolivegreen;
+}
+
+blockquote, h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1.4em;
+}
+
+header p {
+    position: relative;
+    padding: 2em 0 0 2em;
+    font-size: 30px;
+}
+
+header nav {
+    position: absolute;
+    left: 80%;
+    top: 5%;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0.5em;
+}
+
+
+main {
+    padding: 2em 0 0 2em;
+    width: 65em;
+    height: auto;
+}
+
+main h2 {
+    padding-top: 1em;
+}
+
+article section {
+    padding-top: 1em;
+}
+
+article section p {
+    padding: 1em 0;
+}
+
+
+img {
+    padding: 0.5em;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: rgb(0, 0, 0, 0.25);
+}
+
+.first-image {
+    float: right;
+    width: 11em;
+    height: auto;
+    margin-top: -1em;
+}
+
+.second-image {
+    float: left;
+    margin: 0 1em 1em 0;
+    width: 12em;
+    height: auto;
+}
