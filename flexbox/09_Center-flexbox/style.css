@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    padding: 1em;
+    width: 30em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.4);
+}
+
+.card h2 {
+    padding-left: 0.4em;
+}
+
+.card p {
+    padding: 0.7em 0.7em 1em 0.7em;
+}
