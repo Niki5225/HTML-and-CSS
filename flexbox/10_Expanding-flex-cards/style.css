@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(238, 238, 238);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    gap: 1.5em;
+    list-style: none;
+}
+
+.container li {
+    display: block;
+    width: 14em;
+    height: 20em;
+    overflow: hidden;
+    box-shadow: 0 0 1em black;
+    border-radius: 0.5em;
+}
+
+
+li:hover {
+    width: 30em;
+    height: 20em;
+    transition: 0.3s ease-in-out;
+}
