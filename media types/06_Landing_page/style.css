@@ -1,0 +1,178 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgray;
+    min-width: 100vw;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    min-height: 100%;
+}
+
+header {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: purple;
+}
+
+header ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+}
+
+header ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+    gap: 1em;
+}
+
+.banner i {
+    font-size: 9em;
+}
+
+.banner section {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.banner section a {
+    border: 1px solid black;
+    color: black;
+    width: 35%;
+    border-radius: 0.4em;
+    text-decoration: none;
+    padding: 0.2em;
+    text-align: center;
+    background: snow;
+}
+
+.banner section a:hover {
+    background: lightgray;
+    transition: 0.3s ease-in;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team h2,
+.testimonials h2{
+    border-bottom: 3px solid black;
+    padding-bottom: 1em;
+}
+
+.team ul,
+.testimonials ul{
+    margin-left: 2em;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.team ul li,
+.testimonials ul li{
+    flex: 1 1 30%;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.team ul li img,
+.testimonials ul li img{
+    width: 60%;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+
+.newsletter-content {
+    background: purple;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}
+
+.newsletter-content h2 {
+    text-align: center;
+    padding: 1em;
+    color: white;
+    flex-basis: 100%;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.newsletter a {
+    border: 1px solid gray;
+    background: white;
+    text-decoration: none;
+    color: black;
+    padding: 0.3em;
+    border-radius: 0.2em;
+}
+
+.newsletter a:hover {
+    background: lightgray;
+    transition: 0.3s ease-in;
+}
+
+.testimonials {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h2,
+footer h3 {
+    padding: 1em;
+}
+
+footer .sitemap ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+footer .sitemap ul li{
+    flex-basis: 33%;
+}
+
