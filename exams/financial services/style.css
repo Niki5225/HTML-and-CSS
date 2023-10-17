@@ -1,0 +1,63 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, serif;
+}
+
+body {
+    padding: 2em;
+}
+
+header {
+    text-align: center;
+}
+
+header span {
+    color: lightskyblue;
+}
+
+main {
+    margin-top: 3em;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main .card {
+    background: steelblue;
+    flex-basis: 29%;
+    border-radius: 1em;
+}
+
+main .content {
+    padding: 0.8em;
+}
+
+main .content h2 {
+    margin-top: 0.5em;
+}
+
+main .content p {
+    margin-bottom: 1.3em;
+}
+
+main .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+
+main .card a {
+    border: 1px solid white;
+    border-radius: 0.5em;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    margin: 0.3em;
+    background: dodgerblue;
+    text-decoration: none;
+    color: white;
+}
