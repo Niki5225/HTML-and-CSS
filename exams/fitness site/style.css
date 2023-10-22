@@ -1,0 +1,144 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("image/fitness-main.jpg") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center -10em;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    background: red;
+    padding: 1em;
+}
+
+.header-top .container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.header-top .container ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+}
+
+.main-nav {
+}
+
+.main-nav .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-nav .container nav ul {
+    padding-top: 2em;
+    display: flex;
+    list-style: none;
+    gap: 1.3em;
+}
+
+.main-nav .container nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.welcome-picture-section {
+    padding-bottom: 10em;
+}
+
+.welcome-picture-section .container {
+    padding-top: 9em;
+    text-align: center;
+    color: white;
+}
+
+.welcome-picture-section .container h2,
+.welcome-picture-section .container p {
+    padding-bottom: 1em;
+}
+
+.welcome-picture-section .container .cta {
+    background: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 0.4em;
+    margin-top: 1em;
+    padding: 0.5em 1.5em;
+}
+
+.main-welcome-section {
+    background: white;
+    padding-bottom: 4em;
+}
+
+.main-welcome-section .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-welcome-section .container h3,
+.coaches-section .container h3{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.main-welcome-section .container span,
+.coaches-section .container span{
+    display: block;
+    margin: 0 auto 1em auto;
+    height: 0.3em;
+    width: 3em;
+    background: red;
+    border-radius: 0.4em;
+}
+
+.main-welcome-section .container .cards-content .card h4 {
+    color: red;
+}
+
+.main-welcome-section .container .cards-content {
+    padding-top: 2em;
+    display: flex;
+    text-align: center;
+}
+
+.main-welcome-section .container .card {
+    flex: 1 1 30%;
+}
+
+
+.main-welcome-section .container .card img {
+    width: 20%;
+    height: auto;
+}
+
+.coaches-section {
+    background: lightgray;
+}
+
+.coaches-section .container .coaches-content{
+    display: flex;
+    padding: 1em 0;
+}
+
+.footer {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
