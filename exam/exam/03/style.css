@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html > * {
+    font-family: 'PT Sans', sans-serif;
+}
+
+html h1, h2, h3, h4 {
+    font-family: 'PT Serif', serif;
+}
+
+header {
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10em;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2em 3em 2em;
+}
+
+header .nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 1.2em;
+}
+
+header .nav-bar ul a {
+    text-decoration: none;
+    color: white;
+}
+
+header .nav-bar img {
+    width: 5%;
+    height: 5%;
+}
+
+header .container .opening-text {
+    width: 34%;
+    margin-left: 5em;
+    color: white;
+}
+
+header .container .opening-text h2 {
+    font-weight: 300;
+    font-size: 2.18em;
+    padding-bottom: 0.5em;
+}
+
+main {
+    background: #FFFFFF;
+}
+
+main .container {
+    display: flex;
+    gap: 3em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+main .container .card h2 {
+    padding-bottom: 0.5em;
+    font-size: 2.6em;
+    font-weight: normal;
+
+}
+
+main .container .card p {
+    line-height: 1.3em;
+    padding-bottom: 3em;
+}
+
+main .container .card a {
+    border: 3px solid #B0825C;
+    color: #B0825C;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    font-weight: 600;
+}
+
+.additional-info {
+    padding-top: 2em;
+}
+
+.additional-info .container .sponsors h2,
+.additional-info .container .partners h2 {
+    color: #B0825C;
+    text-align: center;
+    padding-bottom: 1em;
+    font-size: 2.6em;
+    font-weight: normal;
+}
+
+.additional-info .container .sponsors p,
+.additional-info .container .partners p {
+    text-align: center;
+    color: gray;
+}
+
+.additional-info .container .sponsors .images-of-sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em 0;
+    gap: 3em;
+}
+
+.additional-info .container .sponsors .images-of-sponsors img {
+    width: 12%;
+    height: auto;
+    border: transparent;
+    border-radius: 50%;
+    background: #DDDDDD;
+    padding: 1em;
+}
+
+.additional-info .container .partners {
+    padding-bottom: 4em;
+}
+
+.additional-resources {
+    background: #171720;
+    padding: 4em 0;
+}
+
+.additional-resources .container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional-resources .container .part span {
+    display: block;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.additional-resources .container .part ul {
+    list-style: none;
+    padding-top: 0.4em;
+}
+
+.additional-resources .container .part ul li {
+    padding-bottom: 0.5em;
+}
+
+.additional-resources .container .part ul a {
+    text-decoration: none;
+    color: gray;
+}
+
+footer {
+    padding: 1em;
+    background: #171720;
+    color: gray;
+}
+
+.bottom-line {
+    display: block;
+    width: 100%;
+    height: 0.1em;
+    background: #282830;
+}
